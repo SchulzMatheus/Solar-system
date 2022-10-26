@@ -1,0 +1,716 @@
+html {
+   background: url('../src/images/background.png');
+}
+.App {
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  width: 451.85px;
+  height: 263.46px;
+  left: 412.69px;
+  top: 35.92px;
+}
+
+.header::after {
+  background-color: transparent;
+border: 1px solid #fff;
+border-radius: 100%;
+content: "";
+display: block;
+height: 10rem;
+position: absolute;
+left: 95px;;
+top: 151.06px;
+-webkit-transform: translate(50%,-50%) skewX(-45deg);
+transform: translate(50%,-50%) skewX(-45deg);
+width: 10rem;
+}
+
+.h1 {
+  position: absolute;
+  width: 451.85px;
+  height: -213.63px;
+  left: 130px;
+  top: 107.06px;
+  color: #FFFFFF;
+}
+
+.hr {
+  position: absolute;
+  opacity: 0.5;
+  right: 0px;
+  height: 0px;
+  left: 0px;
+  top: 626.5px;
+  border: 1px solid white
+}
+
+.conteinerPlanet {
+  display: flex;
+  position: absolute;
+  width: 1284px;
+  height: 305.54px;
+  left: 0.5px;
+  top: 444px;
+}
+
+.imgMercúrio {
+  height: 31px;
+  left: 39px;
+  position: absolute;
+  top: 176px;
+  width: 41px;
+}
+
+.imgVênus {
+  position: absolute;
+  width: 102px;
+  height: 76px;
+  left: 137px;
+  top: 153px;
+}
+
+.imgTerra {
+  position: absolute;
+  width: 106px;
+  height: 79px;
+  left: 278px;
+  top: 152px;
+}
+
+.imgMarte {
+  position: absolute;
+  width: 66px;
+  height: 50px;
+  left: 423px;
+  top: 166px;
+}
+
+.imgJúpiter {
+  position: absolute;
+  width: 272px;
+  height: 204px;
+  left: 489px;
+  top: 74px;
+}
+
+.imgSaturno {
+  position: absolute;
+  width: 282.41px;
+  height: 210.9px;
+  left: 694px;
+  top: 103.35px;
+  transform: rotate(-16.53deg);
+}
+
+.imgUrano {
+  position: absolute;
+  width: 144px;
+  height: 109px;
+  left: 977px;
+  top: 132px;
+}
+
+.imgNetuno {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  left: 1180px;
+  top: 133px;
+}
+
+.planetTitle {
+  position: absolute;
+  width: 179px;
+  height: 60px;
+  left: 553px;
+  top: -10px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 150%;
+
+  /* identical to box height, or 60px */
+  text-align: center;
+  text-transform: uppercase;
+  color: white
+}
+
+.missionContent {
+  position: absolute;
+  width: 1098px;
+  height: 2276px;
+  left: 91px;
+  top: 899px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+}
+
+.Mercúrio {
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 24px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.Vênus {
+  position: absolute;
+  width: 48px;
+  height: 24px;
+  left: 164px;
+  top: 278px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.Terra {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 311px;
+  top: 278px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.Marte {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 433px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* identical to box height, or 24px */
+
+  color: #FFFFFF;
+}
+
+.Júpiter {
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: 599px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* identical to box height, or 24px */
+
+  color: #FFFFFF;
+}
+
+.Saturno {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  left: 842px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* identical to box height, or 24px */
+
+  color: #FFFFFF;
+}
+
+.Urano {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 1025px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* identical to box height, or 24px */
+
+  color: #FFFFFF;
+}
+
+.Netuno {
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 1225px;
+  top: 278px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* identical to box height, or 24px */
+
+  color: #FFFFFF;
+}
+
+.t0 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 137px;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t1 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 137px;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t2 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 349px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t3 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 349px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t4 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 561px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t5 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 561px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t6 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 773px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t7 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 773px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t8 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 985px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t9 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 985px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t10 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 1197px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t11 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 1197px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t12 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 1409px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t13 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 1409px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t14 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 1621px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t15 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 1621px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t16 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 1833px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t17 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 1833px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t18 {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+
+  position: absolute;
+  width: 496px;
+  height: 192px;
+  left: 43px;
+  top: 2045px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.t19 {
+  position: absolute;
+  color: white;
+  width: 496px;
+  height: 192px;
+  left: 559px;
+  top: 2045px;
+
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.missionTitle {
+  position: absolute;
+  width: 159px;
+  height: 60px;
+  left: 455px;
+  top: 9px;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 150%;
+
+  /* identical to box height, or 60px */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.MissionHr {
+  border: 1px solid white;
+  opacity: 0.5;
+}
+
+.imgMercúrio:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+.imgVênus:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgTerra:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgMarte:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgJúpiter:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgSaturno:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgUrano:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
+
+.imgNetuno:hover {
+  position: relative;
+  transform: scale(1.3) rotate(5deg);
+  transition: 1s;
+}
+
