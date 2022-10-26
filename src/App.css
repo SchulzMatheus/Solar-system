@@ -38,9 +38,9 @@ width: 10rem;
 }
 
 .hr {
-  position: absolute;
+  position: relative;
   opacity: 0.5;
-  right: 0px;
+  right: 0%;
   height: 0px;
   left: 0px;
   top: 626.5px;
@@ -714,3 +714,83 @@ width: 10rem;
   transition: 1s;
 }
 
+.t0:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t1:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t2:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t3:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t4:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t5:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t6:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t7:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t8:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t9:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t10:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t11:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t12:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t13:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t14:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t15:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t16:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t17:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t18:hover {
+  background-color: grey;
+   font-style: italic;
+}
+.t19:hover {
+  background-color: grey;
+   font-style: italic;
+}
